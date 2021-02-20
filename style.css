@@ -14,13 +14,13 @@ body{
 .envoltura_total_app{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80vh;
-    grid-column-gap: 1.1rem;
-    width: 100%;
+    grid-template-rows: 89vh;
+    width: 95%;
     padding: 0 1rem;
+    margin: auto;
 }
 h1{
-    margin-bottom: 4rem;
+
     font-size: 2.3rem;
 }
 .appWrap{
@@ -31,7 +31,7 @@ h1{
     align-items: center;
     background-color: brown;
     padding: 30px 20px 0 20px;
-    height: 80vh;
+    height: 100%;
 }
 
 
@@ -48,6 +48,7 @@ h1{
 
 .appWrap .box .swithchGrande{
     font-size: 1.4rem;
+    margin-bottom: 1rem;
 }
 
 /* -------resultado */
@@ -57,7 +58,7 @@ h1{
 }
 .resultado .resultcaja1{
    
-    padding: 1.5rem;
+    padding: 1.1rem 1.1rem 0 1.1rem;
     border-radius: 10px;
 }
 .resultado .resultcaja{
@@ -66,20 +67,23 @@ h1{
     margin: auto;
 }
 .resultado .resultcaja h3{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-style: italic;
     width: fit-content;
 }
 .resultado .resultcaja p{
     text-align: justify;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
+}
+.resultado .resultcaja2 .ultimop{
+    margin: 0 !important;
 }
 .resultado .resultcaja h4{
     font-family: var(--familia);
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-decoration: underline;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .resultado .resultcaja2{
     display: none;
@@ -98,17 +102,15 @@ h1{
 .macrostotal .macros .table{
     width: 30rem;
     background-color: rgb(241, 165, 13,.7);
-    min-height: 9rem;
+
 }
 .macros ._macros{
     text-align: center;
-    margin: 0 0 3rem 0;
+    border-radius: 10px;
     font-family: var(--familia);
-    font-size: 2.2rem;
+    font-weight: 600;
     letter-spacing: 1px;
-    background-color: black;
-    color: white;
-    padding: 10px 0;
+
 }
 .macros h4{
     font-size: 1.2rem;
@@ -118,9 +120,14 @@ table tbody tr td{
     font-size: 1.4rem;
 }
 /* nuevo */
+ul{
+    background: white;
+    padding: 9px;
+}
 ul li{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     list-style: none;
+    border-bottom: 1px solid grey;
 }
 
 
